@@ -1,0 +1,204 @@
+:root {
+    --factor1: 21.5%;
+    --font-style-basis: 0.85vw;
+}
+
+.canvas_container {
+    /* display: flex;
+    position: relative;
+    flex: 1 0 40%;
+    max-width: 40%;
+    padding-top: 40%;
+    border-radius: 2.6%;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.2);
+    background-color: #28313b; */
+    /* Rectangle 13 */
+    width: 800px;
+    height: 800px;
+    left: 100px;
+    top: 14px;
+    background: #c7bfbf;
+}
+
+.canvas_container_inner {
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 5%;
+    background-color: #28313b;
+    border-radius: 2.6%; */
+    border: 1px saddlebrown solid;
+    position: relative;
+}
+
+.Node {
+    /* Ellipse 14 */
+    /* position: absolute; */
+    width: 30px;
+    height: 30px;
+    background: #C12121;
+    border-radius: 50%;
+}
+
+.Node-0 {
+    position: absolute;
+    top: 259px;
+    left: 755px;
+}
+
+.Node-1 {
+    /* Ellipse 14 */
+    position: absolute;
+    left: 755px;
+    top: 393px;
+}
+
+.Node-2 {
+    position: absolute;
+    top: 527px;
+    left: 755px;
+}
+
+.Node-3 {
+    position: absolute;
+    top: 661px;
+    left: 755px;
+}
+
+.Node-4 {
+    position: absolute;
+    top: 795px;
+    left: 755px;
+}
+
+.Node-5 {
+    position: absolute;
+    top: 259px;
+    left: 621px;
+}
+
+.Node-6 {
+    position: absolute;
+    top: 393px;
+    left: 621px;
+}
+
+.Node-7 {
+    position: absolute;
+    top: 527px;
+    left: 621px;
+}
+
+.Node-8 {
+    position: absolute;
+    top: 661px;
+    left: 621px;
+}
+
+.Node-9 {
+    position: absolute;
+    top: 795px;
+    left: 621px;
+}
+
+.Node-10 {
+    position: absolute;
+    top: 259px;
+    left: 487px;
+}
+
+.Node-11 {
+    position: absolute;
+    top: 393px;
+    left: 487px;
+}
+
+.Node-12 {
+    position: absolute;
+    top: 527px;
+    left: 487px;
+}
+
+.Node-13 {
+    position: absolute;
+    top: 661px;
+    left: 487px;
+}
+
+.Node-14 {
+    position: absolute;
+    top: 795px;
+    left: 487px;
+}
+
+.Node-15 {
+    position: absolute;
+    top: 259px;
+    left: 353px;
+}
+
+.Node-16 {
+    position: absolute;
+    top: 393px;
+    left: 353px;
+}
+
+.Node-17 {
+    position: absolute;
+    top: 527px;
+    left: 353px;
+}
+
+.Node-18 {
+    position: absolute;
+    top: 661px;
+    left: 353px;
+}
+
+.Node-19 {
+    position: absolute;
+    top: 795px;
+    left: 353px;
+}
+
+.Node-20 {
+    position: absolute;
+    top: 259px;
+    left: 219px;
+}
+
+.Node-21 {
+    position: absolute;
+    top: 393px;
+    left: 219px;
+}
+
+.Node-22 {
+    position: absolute;
+    top: 527px;
+    left: 219px;
+}
+
+.Node-23 {
+    position: absolute;
+    top: 661px;
+    left: 219px;
+}
+
+.Node-24 {
+    position: absolute;
+    top: 795px;
+    left: 219px;
+}
+
+.Path-0-1 {
+    /* Rectangle 16 */
+    position: absolute;
+    width: 94px;
+    height: 15px;
+    top: 393px;
+    left: 767px;
+    background: #473F3F;
+    transform: rotate(-90deg);
+}

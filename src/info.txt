@@ -1,0 +1,10 @@
+Board.jsx:
+
+In this case, for each path in the paths array, the map() function creates a new div element with the 
+key attribute set to the index of the current element. The key attribute is necessary for React to 
+efficiently update the UI when elements are added, removed, or reordere
+
+The issue with the expression ${styles.Path-${path}} is that you cannot directly 
+use the variable path within the style class name like this. Instead, you can use
+ bracket notation to access 
+the class name dynamically from the styles
