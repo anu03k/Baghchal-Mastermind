@@ -1,5 +1,6 @@
 
 import './App.css'
+import Header from './components/Header/Header';
 
 import Board from './components/Header/Board/Board'
 function App() {
@@ -8,10 +9,17 @@ function App() {
 
   return (
     <>
-      <Board />
+    <Header />
+   
+    <Board />
+
+    
+     
       {/* <Canvas /> */}
     </>
   )
 }
 
-export default App
+export default App;
+
+

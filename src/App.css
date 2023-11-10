@@ -1,4 +1,16 @@
-:root {
-    --primary-color: #473F3F;
-    --secondary-color: #C12121;
-}
+                                                              :root {
+                                                                 --primary-color: #473F3F;
+                                                                 --secondary-color: #C12121;
+                                                             }
+                                                             
+                                                             .board {
+                                                                 height: 700px;
+                                                                 display: flex;
+                                                                 border: 2px solid red;
+                                                                 width: 700px;
+                                                                 flex-wrap: wrap;
+                                                             }
+                                                             
+                                                             body {
+                                                                 background-color: #28313b;
+                                                             }

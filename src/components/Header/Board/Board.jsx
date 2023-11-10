@@ -82,6 +82,9 @@ function Board() {
                                     return (<div className = {classname} key = {paths.indexOf(path)} ></div>)
                                 }) 
                 }
+                
+                
+                
                 </div>
                 </div>
     
