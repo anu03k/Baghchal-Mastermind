@@ -12,7 +12,7 @@ function Header() {
 
              <div className="logo">   
                  
-                 <img src="./public/images/logo.png" alt="" />
+                 <img src="/images/Baghchal-logo.png" alt="logo" />
              </div>
              <div className="links">
                  <ul>

@@ -61,8 +61,8 @@ function Board() {
    
    <div className="canvas_container">
             <div className="canvas-container-inner">
-                
-                {
+                 <div className="path-lock">
+                 {
                     nodes.map(node => {
                                 let classname = `Node Node-${String(node)}`;
                                 
@@ -85,6 +85,8 @@ function Board() {
                 
                 
                 
+                    </div> 
+               
                 </div>
                 </div>
     

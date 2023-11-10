@@ -1,0 +1,60 @@
+        .main-container {
+            margin-top: 120px;
+            color: rgb(159, 155, 151);
+            display: flex;
+            flex-wrap: wrap;
+            font-family: 'Quicksand';
+        }
+        
+        .player-choose {
+            display: flex;
+            height: 270px;
+            width: 150px;
+            border-radius: 2px;
+            background-color: #20272f;
+            box-shadow: 0 0 4px rgba(255, 255, 255, 0.2);
+            border-radius: 2%;
+            flex-direction: column;
+            padding: 10px;
+        }
+        
+        .vsPlayer-2,
+        .vsComp {
+            margin-top: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .icons {
+            color: teal;
+            font-size: 27px;
+            border: 2px solid teal;
+            border-radius: 40%;
+        }
+        
+        .icons:hover {
+            color: violet;
+        }
+        
+        .choose-TG {
+            font-size: 12px;
+            padding-left: 29px;
+        }
+        
+        .NewGame {
+            border-radius: 3px;
+            border: none;
+            background-color: rgba(211, 228, 228, 0.473);
+            height: 30px;
+            width: 100px;
+            align-items: center;
+            margin-left: 20px;
+            color: rgb(18, 19, 19);
+            font-size: 14px;
+            font-weight: 700;
+            transition: all 0.3s ease;
+        }
+        
+        .NewGame:hover {
+            transform: scale(1.1);
+        }

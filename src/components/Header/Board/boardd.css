@@ -1,5 +1,5 @@
 :root {
-    --factor1: 21.5%;
+    --factor1: 16.5%;
     --font-style-basis: 0.85vw;
 }
 
@@ -13,17 +13,23 @@
     /* flex-wrap: wrap; */
 }
 
+.path-lock {
+    margin-top: 100px;
+    margin-left: 10px;
+    height: 700px;
+}
+
 .canvas-container-inner {
     position: absolute;
     top: 10px;
     left: 10px;
     right: 0px;
     bottom: 0;
-    max-width: 40%;
+    max-width: 35%;
     padding: 5%;
     padding-bottom: 40px;
     padding-right: 30px;
-    background-color: #28313b;
+    /* background-color: #28313b; */
     border-radius: 2.6%;
     height: 65vh;
 }
@@ -57,13 +63,15 @@
 
 .Node {
     position: absolute;
-    background-color: #60748b;
-    height: 7.9%;
-    width: 7.9%;
+    background-color: #62768d;
+    ;
+    height: 6.3%;
+    width: 6.3%;
     transform: translate(-25%, -25%);
     border-radius: 50%;
     /* paths have zIndex 0 and nodes have 1 so that nodes appear above paths */
     z-index: 1;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.2);
     cursor: pointer;
 }
 

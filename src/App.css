@@ -1,16 +1,16 @@
-                                                              :root {
-                                                                 --primary-color: #473F3F;
-                                                                 --secondary-color: #C12121;
-                                                             }
-                                                             
-                                                             .board {
-                                                                 height: 700px;
-                                                                 display: flex;
-                                                                 border: 2px solid red;
-                                                                 width: 700px;
-                                                                 flex-wrap: wrap;
-                                                             }
-                                                             
-                                                             body {
-                                                                 background-color: #28313b;
-                                                             }
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@500&family=Playfair+Display:ital,wght@1,500&family=Quicksand:wght@500&display=swap');
+ :root {
+    --primary-color: #473F3F;
+    --secondary-color: #C12121;
+}
+
+body {
+    background-color: #28313b;
+    font-family: 'Quicksand';
+}
+
+.Main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
