@@ -14,3 +14,14 @@ body {
     flex-direction: row;
     justify-content: space-around;
 }
+
+
+    /* theming */
+    .theme-blue{
+        /* path color */
+        background-color: #20272f;
+    }
+    .theme-black{
+        
+    }
+    

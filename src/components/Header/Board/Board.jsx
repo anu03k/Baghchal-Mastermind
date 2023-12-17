@@ -1,9 +1,11 @@
 import React from "react";
 import './boardd.css'
+import { GiGoat, GiTigerHead } from 'react-icons/gi';
 
 
 
-function Board() {
+
+function Board( { goatPositions, tigerPosition, handleClick }) {
 
     let nodes = Array.from(Array(25).keys());
     let paths = ['0-1', '1-2', '2-3', '3-4',                        //horizontal paths
@@ -56,10 +58,15 @@ function Board() {
 
 
 
+
+
+
+
+
   return (
     <>
    
-   <div className="canvas_container">
+   <div className="canvas_container theme-blue">
             <div className="canvas-container-inner">
                  <div className="path-lock">
                  {

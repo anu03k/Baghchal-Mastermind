@@ -1,5 +1,6 @@
 
 import './App.css'
+import Theme from './components/Themes/Theme';
 import Header from './components/Header/Header';
 import PlayGame from './components/PlayGame/PlayGame';
 
@@ -13,14 +14,22 @@ function App() {
     <Header />
     <div className="Main">
     <div className="boardBox">
+      {/* theme selection */}
+    
     <Board />
 
-    </div>
+    </div> 
+    {/* boardbox div end */}
+
+    
+    <Theme />
+    
     <div className="playing">
       <PlayGame />
     </div>
 
-    </div>
+    </div> 
+    {/* main */}
     
 
    
